@@ -27,7 +27,7 @@ line = re.compile(r'''
     (?P<email>[-\w\d.+]+@[-\w\d.]+)\t #email
     (?P<phone>\(?\d{3}\)?-?\s?\d{3}-\d{4})?\t #phone
     (?P<job>[\w\s]+,\s[\w\s.]+)\t? #job and company
-    (?P<twitter>@[\w\d]+)?$ #twitter
+    (?P<twitter>@[\w\d]+)?$ #twit  ter
 ''', re.X|re.M)
 
 # print(re.search(line, data).groupdict())
